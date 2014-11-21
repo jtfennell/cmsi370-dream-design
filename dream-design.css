@@ -11,6 +11,23 @@ a{
 	color: #B2B2B2
 }
 .nav-item :hover{
+	border-left: 2px solid 	#4D4D4D;
+	background-color: white;
+}
+body {
+  position: relative;
+}
+.side-navbar{
+	z-index: 1000;
+	position: sticky; 
+	top: 10px;
+}
+.fixed{
+	position: fixed;
+	top: 160px;
+	right: 50px;
+}
+.active{
 	border-left: 3px solid 	#4D4D4D;
 	background-color: white;
 }
