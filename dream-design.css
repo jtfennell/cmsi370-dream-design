@@ -26,3 +26,7 @@ body {
 .active{
 	border-left: 3px solid 	#4D4D4D;
 }
+.img-buffer{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
