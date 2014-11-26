@@ -1,7 +1,6 @@
 .page-header{
 	height: 100;
-
-
+	font-family: 'Economica', sans-serif;
 	border-radius: 5px;
 }
 .page-header h1{
@@ -24,9 +23,16 @@ body {
 	right: 50px;
 }
 .active{
-	border-left: 3px solid 	#4D4D4D;
+	border-left: 3px solid turquoise;
 }
 .img-buffer{
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+h1 {
+	font-family: 'Economica', sans-serif;
+}
+h3{
+	font-family: 'Economica', sans-serif;
+}
+

@@ -9,6 +9,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="dream-design.css">
+    <link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,12 +35,48 @@
             </li>
             <li class = "nav-item">
               <a href="#usage-scenarios">Usage Scenarios</a>
+              <ul>
+                <li>
+                  <a href="#ootd">Outfit of The Day</a>
+                </li>
+                <li>
+                  <a href="#voice-commands">Voice Commands</a>
+                </li>
+                <li>
+                  <a href="#sticky-notes">Sticky Notes</a>
+                </li>
+              </ul>
             </li>
             <li class = "nav-item">
               <a href="#design-rationale">Design Rationale</a>
+              <ul>
+                <li>
+                  <a href="#anticipation">Anticipation</a>
+                </li>
+                <li>
+                  <a href="#feedback">Feedback</a>
+                </li>
+              </ul>
             </li>
             <li class = "nav-item">
               <a href="#metric-projections">Metric Projections</a>
+              <ul>
+                <li>
+                  <a href="#efficiency">Efficiency</a>
+                </li>
+                <li>
+                  <a href="#learnability">Learnability</a>
+                </li>
+                <li>
+                  <a href="#Errors">Errors</a>
+                </li>
+                <li>
+                  <a href="#memorability">Memorability</a>
+                </li>
+                <li>
+                  <a href="#satisfaction">Satisfaction</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -51,7 +88,7 @@
             Our interface design falls into the category of screens. Our system is a multi-touch-screen displaying input from a built in high definition camera. The system is meant to imitate a mirror, and would typically be found within a bedroom, dressing room, walk-in closet, or any other room where people dress, where a mirror would normally be found. 
           </p>
           <p>
-           The concept behind the system is that while functioning as a mirror, the screen can also provide the user the ability to try on clothes, makeup, hairstyles etc via screen overlays. It also displays relevant information for the user, such as the weather and the current date of the week. It can also connect to the user's smartphone via Wi-Fi, and display the user's calendar appointments for the day, Allo of these features are aimed at helping the user plan their outfit for the day as quickly as possible.
+           The concept behind the system is that while functioning as a mirror, the screen can also provide the user the ability to virtually try on clothes, makeup, hairstyles etc via screen overlays. It also displays relevant information for the user, such as the weather and the current date of the week. It can also connect to the user's smartphone via Wi-Fi, and display the user's calendar appointments for the day, All of these features are aimed at helping the user plan their outfit for the day as efficiently as possible.
            </p>
         </div>
       </div>
@@ -161,8 +198,7 @@
       <div class = "row">
         <div class = "col col-md-9">
           <p>
-           When the OOTD app is first accessed, the pie menu in the top left corner will fade away and the interface that the user will see is depicted in [REF IMAGE #]. The title “OOTD” will be present only momentarily to provide feedback to the user that this application has started. The side menu is positioned on the right side of the mirror to allow the user to view the clothes stored in each category and “try on” each item by swiping left and right. The default function of this application will allow users to try on clothes preselected by the system based off the day’s weather. For instance, on a hot summer day, the user will be browsing through lightweight tops, shorts, skirts, and dresses in contrast to winter days where the options will be pants, sweaters, and coats. This filter employs the first principle of anticipation in order to increase efficiency when it comes to deciding on the day’s outfit.  By limiting the user’s options to what is reasonable to wear based off the weather, anticipating the type of outfit that will be chosen results in higher levels of efficiency and satisfaction. Less navigation will be required of the user and only relevant information is presented so that the program can be readily incorporated into one’s daily routine. In doing so, a user does not waste time scrolling through options that they have already mentally disqualified. For instance, someone would not be considering sun dresses as a possible outfit when it is snowing outside. The simplicity of this application makes this interface so easy to use that it could be utilized outside of the private home. Retailers could employ this interface to allow customers to “try on” on their clothes to get an idea of what something may look like. Many times long dressing room lines or the idea of having to dress and undress results in time and money wasted on unflattering clothes. Of course, the illusion in the Magic Mirror is not as accurate as trying on the physical item but it does allows the customer to envision what it may look like. This would eliminate the hassle of trying on multiple items and save time and money. 
-
+           When the OOTD app is first accessed, the pie menu in the top left corner will fade away and the interface that the user will see is depicted in the left image above. The title “OOTD” will be present only momentarily to provide feedback to the user that this application has started. The side menu is positioned on the right side of the mirror to allow the user to view the clothes stored in each category and “try on” each item by swiping left and right. The default function of this application will allow users to try on clothes preselected by the system based off the day’s weather. For instance, on a hot summer day, the user will be browsing through lightweight tops, shorts, skirts, and dresses in contrast to winter days where the options will be pants, sweaters, and coats. This filter employs the first principle of anticipation in order to increase efficiency when it comes to deciding on the day’s outfit.  By limiting the user’s options to what is reasonable to wear based off the weather, anticipating the type of outfit that will be chosen results in higher levels of efficiency and satisfaction. Less navigation will be required of the user and only relevant information is presented so that the program can be readily incorporated into one’s daily routine. In doing so, a user does not waste time scrolling through options that they have already mentally disqualified. For instance, someone would not be considering sun dresses as a possible outfit when it is snowing outside. The simplicity of this application makes this interface so easy to use that it could be utilized outside of the private home. Retailers could employ this interface to allow customers to “try on” on their clothes to get an idea of what something may look like. Many times long dressing room lines or the idea of having to dress and undress results in time and money wasted on unflattering clothes. Of course, the illusion in the Magic Mirror is not as accurate as trying on the physical item but it does allow the customer to envision what it may look like. This would eliminate the hassle of trying on multiple items and save time and money. 
           </p>
         </div>
       </div>
@@ -244,20 +280,29 @@
       </div>
       <div class = "row">
         <div class = "col col-md-9">
-          <h3>Anticipation</h3>
+          <h3 id = "anticipation">Anticipation</h3>
           <p>
-            The system uses anticipation to aid user efficiency. Instead of having to physically turn on the mirror, it utilizes motion-detection, to anticipate the user entering the room and potentially using the mirror. The mirror will automatically turn on. Normally, when approaching a mirror, the mental model in the user’s head is that no further action is required. The user expects the mirror to reflect whatever is in front of it, and this characteristic is replicated in our mirror, to maintain consistency with a traditional mirror. Our mirror automatically turns on via motion sensing when someone enters the room, so that it immediately starts reflecting whatever is in front of it. Otherwise, when no motion is detected, as in when someone leaves the room, it will automatically enter a “power-save-mode” to conserve energy, and the display will turn off.
+            The system uses anticipation throughout to aid user efficiency. Instead of having to physically turn on the mirror, it utilizes motion-detection, to anticipate the user entering the room and potentially using the mirror. The mirror will automatically turn on. Normally, when approaching a mirror, the mental model in the user’s head is that no further action is required. The user expects the mirror to reflect whatever is in front of it, and this characteristic is replicated in our mirror, to maintain consistency with a traditional mirror. Our mirror automatically turns on via motion sensing when someone enters the room, so that it immediately starts reflecting whatever is in front of it. Otherwise, when no motion is detected, as in when someone leaves the room, it will automatically enter a “power-save-mode” to conserve energy, and the display will turn off. In the Outfit of The Day application, the system provides recommendations based on what it anticipates the user will be most comfortable in, based on the weather forecast.
+          </p>
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "col col-md-9">
+          <h3 id = "Feedback">Feedback</h3>
+          <p>
+            The system provides feedback in cases where the internal state must transition, to assure the user that it is responding to user input. As previously noted, the system will provide visual feedback in the form of flashing lights around the edges of the mirror when speaking back to the user. This ensures that feedback is delivered to the user in the case the sound on their mirror has been muted. They will know that the system responded, but they just did not hear the response because the sound was off. Additionally, when transitioning between applications, the system will notify the user via on-screen text and auditory responses. When pressing the capacitative buttons on the side of the mirror, they will give tactile feedback in the form of vibrations, indicating that the button press has been received by the system.
           </p>
         </div>
       </div>
       <div class = "row">
         <div class = "col col-md-9 col-lg-9">
           <h1 id = "metric-projections">Metric Projections</h1>
+          <h3 id = "efficiency">Efficiency</h3>
           <p>
-            We project that our system will perform the most strongly in the category of efficiency. We have designed it to require minimal effort on the part of the user, with each task requiring no more than a few touches or interactions.  Our aforementioned integration of anticipation minimizes the number of touches required. Additionally there are no complex menus to navigate through, as all of the functionality of the mirror can be accessed from the pie menu in the upper right hand corner. Logging in and out of the system is done automatically, with the facial recognition feature. To catch errors that might occur with the facial recognition technology, a thumb print scanner on the side panel provides a secondary alternative to login.
+            We project that our system will perform the most strongly in the category of efficiency. We have designed it to require minimal effort on the part of the user, with each task requiring zero to no more than a few touches or voice commands. Our aforementioned efforts at integration of anticipation specifically minimize the number of touches required. Additionally there are no complex menus to navigate through, as all of the functionality of the mirror can be accessed from the pie menu in the upper right hand corner. Logging in and out of the system is done automatically, with the facial recognition feature. To catch errors that might occur with the facial recognition technology, a thumb print scanner on the side panel provides a secondary alternative to login.
           </p>
           <p>
-            Thanks to the small number of possible input actions the user can do and each widget having similar interaction to each other, the magic mirror also aligns with learnability and memorability metrics. Also considering it is a device that will be used daily the actions involving will become second nature increasing memorability further.
+            Due to the small number of possible input actions the user perform, and consistency across our widgets, the magic mirror also yields itself to strong learnability and memorability metrics. Considering it is a device that will be used daily the actions involved will become second nature increasing memorability further.
           </p>
         </div>
       </div>
